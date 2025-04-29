@@ -71,10 +71,7 @@
 まずはプロジェクトの `src` フォルダーの中に `image` フォルダーを作成し、その中に `CutieRabbit.png` という名前の画像ファイルを配置しましょう。  
 今後、見出しの横や投稿画面でこの画像を表示するために必要です。
 
-以下のリンクをクリックすると、ブラウザが `CutieRabbit.png` をダウンロードします。  
-<a href="./src/image/CutieRabbit.png" download="CutieRabbit.png">
-  🐰 CutieRabbit.png をダウンロード
-</a>
+[🐰 CutieRabbit.png はここにあります](./src/image/CutieRabbit.png)
 
 ---
 
