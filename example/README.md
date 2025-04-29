@@ -111,7 +111,7 @@ function App() {
 これは、JavaScriptの中にHTMLに似た記述（`div`や`h1`など）をしている状態です。  
 裏側では、このHTMLっぽいコードをJavaScriptのオブジェクトに変換して動かしています！
 
-### ✔️ まとめ
+### ✔️ .jsxファイルのまとめ
 .jsxファイルは、JavaScriptとHTMLっぽい書き方を一緒にできる。
 
 HTMLと似ているけど、正確にはJavaScriptの特別な記法。
@@ -147,7 +147,7 @@ HTMLと似ているけど、正確にはJavaScriptの特別な記法。
 
 ---
 
-# 🌟 ステップ4：自由にカスタマイズしてみよう！
+## 🌟 ステップ4：自由にカスタマイズしてみよう！
 
 基本的な投稿アプリが完成しました！
 ここからは、コードを自分好みに育てていきましょう🌱
@@ -177,7 +177,7 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
   - 例: [役割分けのコード例](https://github.com/jack-app/jackHack2025_I)
 
 - **MUIなどのコンポーネントライブラリを使おう**
-  - みた相も統一され、コードも簡単に！
+  - 見た目も統一され、コードも簡単に！
 
 - **TypeScriptを使おう**
   - 型付けをすることで、バグを事前に防げる。
