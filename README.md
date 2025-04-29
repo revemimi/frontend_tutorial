@@ -15,12 +15,29 @@
 
 ## 2. 開発環境を整えよう！
 
-### ■ npmの導入
-- 参考：[【初心者向け】Windows 環境で npm を導入する](https://qiita.com/fehde/items/17a2bfff8f5a5767c600)
+### ■ nvmのインストール
+参考：　[【初心者向け】Windows 環境で npm を導入する](https://qiita.com/fehde/items/17a2bfff8f5a5767c600)
 
-1. `nvm-setup.zip` をダウンロード  
-2. 展開して、`nvm-setup.exe` をダブルクリックしてインストール
+以下の手順に従って、Windows 環境に nvm を導入します。
+1. GitHub の nvm-windows リポジトリから nvm-setup.zip をダウンロードします。
+2. リンク: https://github.com/coreybutler/nvm-windows
+3. ZIP ファイルを解凍し、中にある nvm-setup.exe をダブルクリックしてインストーラーを起動します。
+4. インストーラーの指示に従い、nvm-windows をインストールします。
 
+### ■ nvm上でNode.jsをインストール
+nvm（Node Version Manager）を使って、Node.js を簡単にインストール・切り替えできます。
+- インストール可能なバージョン一覧を表示
+```
+nvm list available
+```
+- 推奨される LTS（Long Term Support）版をインストール（例: 最新の LTS を選択）
+```
+nvm install 22.15.0
+```
+- インストールしたバージョンを使用
+```
+nvm use 22.15.0
+```
 ### ■ npmが使えるか確認
 以下のコマンドを実行して、バージョン番号が表示されれば成功です！
 ```
