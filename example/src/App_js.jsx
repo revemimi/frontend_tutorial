@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import './App_js.css';
+import './App.css';
+
+import cutieRabbit from './image/CutieRabbit.png';
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -19,12 +21,19 @@ function App() {
 
   return (
     <div id="root">
-      <h1>新しい投稿を作成</h1>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <h1 style={{ marginRight: '1rem' }}>新しい投稿を作成</h1>
+        <img
+          src={cutieRabbit}
+          alt="Cutie Rabbit"
+          style={{ height: '150px' }}
+        />
+      </div>
 
       <form className="post-form" onSubmit={handleSubmit}>
         <textarea
           className="post-textarea"
-          rows={5}
+          rows={1}
           placeholder="ここに投稿内容を入力してください"
           value={content}
           onChange={e => setContent(e.target.value)}

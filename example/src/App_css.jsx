@@ -1,29 +1,33 @@
-import React from 'react'
-import './App_css.css'
+import React from 'react';
+import './App.css'; //cssを適用する！
+
+import cutieRabbit from './image/CutieRabbit.png';
 
 function App() {
   return (
     <>
-      {/* ページ上部の見出し */}
-      <h1>新しい投稿を作成</h1>
-
-      {/* 投稿内容を入力するエリア */}
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <h1 style={{ marginRight: '1rem' }}>新しい投稿を作成</h1>
+        <img
+          src={cutieRabbit}
+          alt="Cutie Rabbit"
+          style={{ height: '150px' }}
+        />
+      </div>
       <div>
         <textarea
-          id="post-content"
-          name="postContent"
-          rows="5"
+          id="post-textarea"
+          className="post-textarea"
+          rows="1"
           cols="60"
           placeholder="ここに投稿内容を入力してください"
-        ></textarea>
+        />
       </div>
-
-      {/* フォーム送信ボタン */}
       <div>
         <button type="submit">投稿する</button>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
