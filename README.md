@@ -61,11 +61,14 @@ npm create vite@latest myapp
 - **Select a variant** → `JavaScript`
 
 ### ■ プロジェクトディレクトリに移動してパッケージをインストール
+myappのディレクトリに移動する
 ```
 cd myapp
+```
+パッケージのインストール
+```
 npm install
 ```
-
 
 ---
 
